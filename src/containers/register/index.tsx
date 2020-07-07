@@ -39,7 +39,7 @@ export default class Register extends React.Component<Props> {
           <Form.Group widths='equal'>
             <Form.Field>
               <label>Informe o CEP</label>
-              <input value={zipcode || ''} maxLength={8} name='zipcode' onChange={handleForm} placeholder='Ex: 14405123' />
+              <input value={zipcode || ''} maxLength={8} name='zipcode' onChange={handleForm} placeholder='Ex: 234234' />
             </Form.Field>
             <Form.Field>
               <Cep zipCode={zipcode} />
@@ -48,7 +48,7 @@ export default class Register extends React.Component<Props> {
           <Form.Group widths='equal'>
             <Form.Field>
               <label>Informe o GitHub</label>
-              <input value={github || ''} maxLength={20} name='github' onChange={handleForm} placeholder='Ex: luismar' />
+              <input value={github || ''} maxLength={20} name='github' onChange={handleForm} placeholder='Ex: Caio' />
             </Form.Field>
             <Form.Field>
               <Github userName={github} />

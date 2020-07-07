@@ -21,10 +21,10 @@ export default class Sobre extends React.Component<Props> {
               <Header color='blue' as='h2'>
                 <Header.Content>
                   Sobre
-                 <Header.Subheader>Desemvolvimento de site com React
+                 <Header.Subheader>Desenvolvimento de com React
                  <br/> 
                  <br/> 
-                 UniFacef - Desenvolvimento de aplicações web e móveis escaláveis
+                 UniFacef
                  </Header.Subheader>
                 </Header.Content>
               </Header>
