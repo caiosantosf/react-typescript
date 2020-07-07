@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render logotipo 1`] = `
+<body>
+  <div>
+    <img
+      class="ui small image"
+      src="https://www.unifacef.com.br/wp-content/uploads/2015/04/Uni_FACEF_MUNICIPAL.png"
+    />
+  </div>
+</body>
+`;
